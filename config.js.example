@@ -1,0 +1,26 @@
+module.exports = {
+    mailgun: {
+        apiKey: '',
+        domain: ''
+    },
+    email: {
+        to: '',
+        from: '',
+        subject: 'Cryptocurrency Balance for %date%',
+        body: '%balance%'
+    },
+    portfolio: {
+    /* 
+    EXAMPLE: COIN SYMBOL: QTY 
+    */
+        ENJ: 0, 
+        ADA: 0, 
+        SC : 0, 
+        XLM: 0,
+        XRP: 0,
+        ETN: 0, 
+        ETC: 0,
+        NEO: 0,
+        POWR: 0
+    }   
+}
